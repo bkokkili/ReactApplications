@@ -1,0 +1,11 @@
+#headerDiv{
+  color: red;
+}
+
+#movies {
+  display: flex;
+  gap: 5px;
+}
+#imgWidth{
+  width: 25%;
+}
