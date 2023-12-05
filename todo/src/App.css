@@ -1,0 +1,13 @@
+.buttonStyle{
+  height: 20px;
+  margin-top: 15px;
+}
+.task
+{
+  display: flex;
+  gap: 10px;
+}
+
+.buttons{
+  gap: 10px;
+}
