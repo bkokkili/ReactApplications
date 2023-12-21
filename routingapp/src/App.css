@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+}
