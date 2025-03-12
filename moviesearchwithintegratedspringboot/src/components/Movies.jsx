@@ -9,10 +9,8 @@ const Movies = () => {
   useEffect(() => {
     let API_key = "7722ae9b";
    fetch(`http://localhost:8082/loadMoviesBySearch?searchTerm=${searchTerm}&apiKey=${API_key}`)
-    //fetch(`https://www.omdbapi.com/?s=${searchTerm}&apikey=${API_key}`)
       .then((response) => response.json())
       .then((data) => setMoviesData(data));
-     //.then((data) => console.log(data.Search));
   }, [searchTerm]);
 
   return (
