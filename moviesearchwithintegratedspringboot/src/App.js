@@ -1,9 +1,12 @@
-import './App.css'
-const App = () => {
-    return(
-    <div>
-       <h1 className="App">Movie Search</h1>
+import './App.css';
+import Movies from './components/Movies';
+
+function App() {
+  return (
+    <div className="App">
+     <Movies/>
     </div>
-    )
+  );
 }
-export default App
+
+export default App;
